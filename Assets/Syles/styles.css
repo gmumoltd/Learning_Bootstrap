@@ -1,0 +1,40 @@
+ /* Styles the entire page background */
+ 
+ body {
+     background-color: #f8f9fa;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-top: 50px;
+ }
+ /* Centers everything inside this div */
+ 
+ .main-container {
+     text-align: center;
+     max-width: 600px;
+     margin: 0 auto;
+     /* Centers the div itself horizontally */
+     background: white;
+     padding: 30px;
+     border-radius: 15px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ /* Customizes the Bootstrap H1 */
+ 
+ h1 {
+     color: #0d6efd;
+     /* Bootstrap Primary Blue */
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+ /* Adds some spacing to the paragraph */
+ 
+ p {
+     font-size: 1.2rem;
+     color: #555;
+     margin-bottom: 25px;
+ }
+ /* Custom hover effect for your warning button */
+ 
+ .btn-warning:hover {
+     transform: scale(1.1);
+     transition: 0.3s;
+ }
